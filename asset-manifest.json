@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Mini-Challenge/static/css/main.5fc1c0ce.css",
-    "main.js": "/Mini-Challenge/static/js/main.4aee36fb.js",
+    "main.js": "/Mini-Challenge/static/js/main.ea907387.js",
     "static/js/787.b7d734cd.chunk.js": "/Mini-Challenge/static/js/787.b7d734cd.chunk.js",
     "static/media/gifChellenge.webp": "/Mini-Challenge/static/media/gifChellenge.114bdd4e85e60daa6255.webp",
     "index.html": "/Mini-Challenge/index.html",
     "main.5fc1c0ce.css.map": "/Mini-Challenge/static/css/main.5fc1c0ce.css.map",
-    "main.4aee36fb.js.map": "/Mini-Challenge/static/js/main.4aee36fb.js.map",
+    "main.ea907387.js.map": "/Mini-Challenge/static/js/main.ea907387.js.map",
     "787.b7d734cd.chunk.js.map": "/Mini-Challenge/static/js/787.b7d734cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc1c0ce.css",
-    "static/js/main.4aee36fb.js"
+    "static/js/main.ea907387.js"
   ]
 }
