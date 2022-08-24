@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import UserForm from "../../Hooks/useForm";
+import Swal from "sweetalert2";
+import { Toast } from "../Toast"
 
 const FormUser = () => {
   const { form, handleChangeForm, ClearForm } = UserForm();
@@ -7,16 +9,28 @@ const FormUser = () => {
 
   const registerUser = (e) => {
     e.preventDefault();
-    if (form.nombre || form.edad || form.carrera) {
+    if (form.nombre && form.edad && form.carrera) {
       setUser(form);
       ClearForm()
+      Toast.fire({
+        icon: 'success',
+        title: `Usuario ${form.nombre} creado!`
+      })
     } else {
-      alert("Debes llenar todos los campos");
+      Swal.fire({
+        icon: 'error',
+        title: 'Error...',
+        text: 'Debes completar todos los campos!',
+      })
     }
   };
 
   const removeAll = () => {
     setUser("")
+    Toast.fire({
+      icon: 'success',
+      title: `Usuario ${form.nombre}Removido con Exito`
+    })
   }
 
   return (
